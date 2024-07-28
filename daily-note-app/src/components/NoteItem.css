@@ -1,0 +1,61 @@
+.note-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px 0;
+    align-items: self-start;
+    background-color: #fffdf7;
+    border: 1px solid #f1e4b3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    background-image: linear-gradient(#f3f3f3 1px, transparent 1px); 
+    background-size: 100% 30px; 
+    position: relative;
+  }
+  
+  .note-item textarea.note-textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: transparent; 
+    line-height: 1.5;
+
+    resize: none; 
+  }
+  
+  .note-item textarea.note-textarea:focus {
+    background-color: #fffde6; 
+  }
+  
+  .note-content {
+    white-space: pre-wrap; 
+    line-height: 1.5;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  .note-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .note-actions button {
+    background-color: #ee4227;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .note-actions button:hover {
+    background-color: #d50404;
+  }
+  
